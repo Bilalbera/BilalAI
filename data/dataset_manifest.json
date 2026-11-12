@@ -1,0 +1,87 @@
+{
+  "model_name": "BilalAI 1.0",
+  "processed_at": "2026-11-12T15:21:47.808768+00:00",
+  "language": "tr",
+  "license_note": "Tum seed verisi ozgun ve yazar tarafindan olusturulmustur (CC0).",
+  "sources": [
+    {
+      "file": "diyalog.txt",
+      "language": "tr",
+      "license": "original-self-authored (CC0)",
+      "num_documents": 6,
+      "num_chars": 4307
+    },
+    {
+      "file": "genel_metin.txt",
+      "language": "tr",
+      "license": "original-self-authored (CC0)",
+      "num_documents": 31,
+      "num_chars": 10801
+    },
+    {
+      "file": "kod_javascript.txt",
+      "language": "tr",
+      "license": "original-self-authored (CC0)",
+      "num_documents": 8,
+      "num_chars": 2776
+    },
+    {
+      "file": "kod_python.txt",
+      "language": "tr",
+      "license": "original-self-authored (CC0)",
+      "num_documents": 12,
+      "num_chars": 4151
+    },
+    {
+      "file": "matematik.txt",
+      "language": "tr",
+      "license": "original-self-authored (CC0)",
+      "num_documents": 12,
+      "num_chars": 3188
+    },
+    {
+      "file": "ozet_yeniden_yazma.txt",
+      "language": "tr",
+      "license": "original-self-authored (CC0)",
+      "num_documents": 8,
+      "num_chars": 2811
+    },
+    {
+      "file": "soru_cevap.txt",
+      "language": "tr",
+      "license": "original-self-authored (CC0)",
+      "num_documents": 20,
+      "num_chars": 6306
+    }
+  ],
+  "total_documents": 97,
+  "duplicates_removed": 0,
+  "split_counts": {
+    "train": 89,
+    "validation": 4,
+    "test": 4
+  },
+  "split_ratio_note": "Kucuk veride %5/%5 dogrulama/test; buyuk veride %1/%1.",
+  "seq_len": 1024,
+  "token_blocks": {
+    "train": {
+      "num_blocks": 11,
+      "block_size": 1025,
+      "seq_len": 1024,
+      "num_tokens": 11275,
+      "num_real_tokens": 10510,
+      "pad_id": 0,
+      "dtype": "int32"
+    },
+    "validation": {
+      "num_blocks": 1,
+      "block_size": 1025,
+      "seq_len": 1024,
+      "num_tokens": 1025,
+      "num_real_tokens": 423,
+      "pad_id": 0,
+      "dtype": "int32"
+    }
+  },
+  "tokenizer_hash": "ec9bcb77a31916c1f2b002d2b6e8fbff1d5187af7c41225b08ce43764510fd26"
+}

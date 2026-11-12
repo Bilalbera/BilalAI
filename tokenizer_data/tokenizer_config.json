@@ -1,0 +1,21 @@
+{
+  "model_name": "BilalAI 1.0",
+  "tokenizer_class": "ByteLevelBPETokenizer",
+  "vocab_size": 32768,
+  "special_tokens": {
+    "<pad>": 0,
+    "<unk>": 1,
+    "<bos>": 2,
+    "<eos>": 3,
+    "<user>": 4,
+    "<assistant>": 5,
+    "<system>": 6,
+    "<tool>": 7,
+    "<turn_end>": 8
+  },
+  "pad_token": "<pad>",
+  "unk_token": "<unk>",
+  "bos_token": "<bos>",
+  "eos_token": "<eos>",
+  "clean_up_tokenization_spaces": false
+}

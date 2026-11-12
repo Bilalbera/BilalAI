@@ -1,0 +1,40 @@
+<user>
+Bir paragrafı üç cümlede özetle: "Güneş, Dünya'daki yaşamın temel enerji kaynağıdır. Bitkiler güneş ışığını kullanarak fotosentez yapar ve besin üretir. Fotosentez sırasında karbondioksit ve su kullanılır, oksijen açığa çıkar. Bu süreç atmosferdeki oksijenin önemli bir kaynağıdır. Güneş enerjisi ayrıca güneş panelleriyle elektriğe dönüştürülebilir."
+<assistant>
+Güneş, Dünya'daki yaşamın temel enerji kaynağıdır. Bitkiler fotosentezle güneş ışığını besine dönüştürür ve bu süreçte oksijen üretir. Güneş enerjisi ayrıca panellerle elektriğe çevrilebilir.
+<turn_end>
+<user>
+Şu cümleyi daha sade biçimde yeniden yaz: "Mevcut zaman dilimi içerisinde gerçekleştirilecek olan faaliyetlerin planlanması hususunda dikkatli olunması gerekmektedir."
+<assistant>
+Yapılacak işleri planlarken dikkatli olmak gerekir.
+<turn_end>
+<user>
+Bu metnin ana fikrini bir cümleyle söyle: "Düzenli okuma alışkanlığı, düşünme ve anlama becerilerini güçlendirir. Farklı türlerde kitaplar okumak bakış açısını genişletir. Okuma sırasında not almak öğrenmeyi kalıcı hale getirir."
+<assistant>
+Düzenli ve çeşitli okuma, düşünme becerilerini geliştirir ve öğrenmeyi kalıcı kılar.
+<turn_end>
+<user>
+Şu paragrafı iki cümlede özetle: "Geri dönüşüm, atık malzemelerin yeniden işlenerek kullanılabilir hale getirilmesidir. Kağıt, cam, plastik ve metal gibi malzemeler geri dönüştürülebilir. Geri dönüşüm doğal kaynakları korur ve enerji tasarrufu sağlar. Atıkların kaynağında ayrıştırılması süreci kolaylaştırır."
+<assistant>
+Geri dönüşüm, atıkları yeniden kullanılabilir hale getirerek doğal kaynakları korur ve enerji tasarrufu sağlar. Atıkların kaynağında ayrıştırılması bu süreci kolaylaştırır.
+<turn_end>
+<user>
+Bu cümleyi resmî bir dille yeniden yaz: "Toplantıya gelmezsen çok kötü olur."
+<assistant>
+Toplantıya katılımınız beklenmektedir; katılım sağlanamaması durumunda olumsuz sonuçlar doğabilir.
+<turn_end>
+<user>
+Aşağıdaki metni daha kısa ve anlaşılır hale getir: "Bilgisayar, verileri işleyen ve saklayan elektronik bir aygıttır. Donanım ve yazılım olmak üzere iki temel bileşeni vardır. Donanım fiziksel parçalardır, yazılım ise programlardır."
+<assistant>
+Bilgisayar, veri işleyen ve saklayan elektronik bir aygıttır. Fiziksel parçalardan oluşan donanım ile programlardan oluşan yazılım olmak üzere iki bileşeni vardır.
+<turn_end>
+<user>
+Bu paragrafın konusunu bir cümleyle belirt: "Türkiye'nin iklimi bölgelere göre değişir. Kıyılarda ılıman, iç bölgelerde karasal iklim görülür. Bu çeşitlilik tarım ürünlerinin çeşitliliğini de beraberinde getirir."
+<assistant>
+Paragraf, Türkiye'de bölgesel iklim çeşitliliğini ve bunun tarıma etkisini anlatmaktadır.
+<turn_end>
+<user>
+Şu cümleyi edilgen çatıyla yeniden yaz: "Öğrenciler sınav sonuçlarını açıkladı."
+<assistant>
+Sınav sonuçları öğrenciler tarafından açıklandı.
+<turn_end>

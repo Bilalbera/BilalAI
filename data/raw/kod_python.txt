@@ -1,0 +1,100 @@
+<user>
+Python'da liste nedir?
+<assistant>
+Python'da liste, birden fazla değeri sıralı şekilde saklayan veri yapısıdır. Köşeli parantezle oluşturulur. Örneğin sayilar = [1, 2, 3] ifadesi üç sayı içeren bir liste oluşturur. Listeler değiştirilebilir; eleman eklenebilir, çıkarılabilir veya güncellenebilir.
+<turn_end>
+<user>
+Python'da değişken nasıl tanımlanır?
+<assistant>
+Python'da değişken, isim = değer biçiminde tanımlanır. Örneğin: yas = 25 veya isim = "Ayşe". Değişkenin türünü ayrıca belirtmek gerekmez; Python atanan değere göre türü otomatik belirler. İsimler anlamlı seçilmeli ve sayı ile başlamamalıdır.
+<turn_end>
+<user>
+Python'da for döngüsü nasıl yazılır?
+<assistant>
+for döngüsü, bir dizinin elemanları üzerinde tekrarlamak için kullanılır. Örnek:
+for i in range(5):
+    print(i)
+Bu kod 0'dan 4'e kadar olan sayıları yazdırır. range(5) fonksiyonu 0, 1, 2, 3, 4 değerlerini üretir. Döngü gövdesi girintili yazılmalıdır.
+<turn_end>
+<user>
+Python'da if koşulu nasıl kullanılır?
+<assistant>
+if koşulu, bir şart doğruysa belirli kodu çalıştırır. Örnek:
+yas = 18
+if yas >= 18:
+    print("Reşitsiniz")
+else:
+    print("Reşit değilsiniz")
+Burada yas 18 veya daha büyükse ilk mesaj, değilse else bloğundaki mesaj yazdırılır. elif ile ek koşullar eklenebilir.
+<turn_end>
+<user>
+Python'da fonksiyon nasıl tanımlanır?
+<assistant>
+Fonksiyon, def anahtar kelimesiyle tanımlanır. Örnek:
+def topla(a, b):
+    return a + b
+sonuc = topla(3, 5)
+print(sonuc)
+Bu fonksiyon iki sayıyı toplar ve sonucu döndürür. return ifadesi fonksiyonun çıktısını belirler. Fonksiyonlar kodu yeniden kullanılabilir hale getirir.
+<turn_end>
+<user>
+Python'da sözlük (dictionary) nedir?
+<assistant>
+Sözlük, anahtar-değer çiftleri saklayan veri yapısıdır. Süslü parantezle oluşturulur. Örnek: ogrenci = {"isim": "Ali", "yas": 20}. Değere anahtarla erişilir: ogrenci["isim"] "Ali" döndürür. Sözlükler hızlı arama için kullanışlıdır.
+<turn_end>
+<user>
+Python'da bir dosya nasıl okunur?
+<assistant>
+Dosya okumak için open fonksiyonu ve with bloğu kullanılır. Örnek:
+with open("notlar.txt", "r", encoding="utf-8") as dosya:
+    icerik = dosya.read()
+print(icerik)
+with bloğu, işlem bitince dosyayı otomatik kapatır. encoding="utf-8" Türkçe karakterlerin doğru okunmasını sağlar. "r" kipi okuma anlamına gelir.
+<turn_end>
+<user>
+Python'da liste elemanları nasıl filtrelenir?
+<assistant>
+Liste comprehension ile filtreleme yapılabilir. Örnek:
+sayilar = [1, 2, 3, 4, 5, 6]
+ciftler = [x for x in sayilar if x % 2 == 0]
+print(ciftler)
+Bu kod çift sayıları seçer ve [2, 4, 6] üretir. if koşulu yalnızca şartı sağlayan elemanları yeni listeye alır.
+<turn_end>
+<user>
+Aşağıdaki Python kodundaki hatayı açıkla: print("Merhaba"
+<assistant>
+Bu kodda kapanmamış bir parantez hatası vardır. print fonksiyonunun açılan parantezi kapatılmamış. Doğru hali: print("Merhaba"). Python bu durumda SyntaxError verir çünkü ifade tamamlanmamıştır. Her açılan parantezin kapatılması gerekir.
+<turn_end>
+<user>
+Python'da while döngüsü ile sayaç örneği yaz ve açıkla.
+<assistant>
+Örnek:
+sayac = 0
+while sayac < 5:
+    print(sayac)
+    sayac += 1
+Bu kodda sayac 0'dan başlar. while koşulu sayac 5'ten küçük olduğu sürece döngü çalışır. Her turda sayac yazdırılır ve bir artırılır. sayac 5 olunca koşul sağlanmaz ve döngü biter. sayac += 1 satırı olmazsa döngü sonsuza kadar çalışır.
+<turn_end>
+<user>
+Python'da hata yönetimi nasıl yapılır?
+<assistant>
+try ve except bloklarıyla hata yönetimi yapılır. Örnek:
+try:
+    sonuc = 10 / 0
+except ZeroDivisionError:
+    print("Sıfıra bölme hatası")
+try bloğunda hata oluşursa except bloğu çalışır. Bu, programın çökmesini engeller. Belirli hata türünü yakalamak, beklenmeyen hataları gizlemekten daha güvenlidir.
+<turn_end>
+<user>
+Python'da bir sayının asal olup olmadığını nasıl kontrol ederim?
+<assistant>
+Bir sayının asal olması için 1'den büyük olması ve yalnızca 1'e ve kendisine bölünmesi gerekir. Örnek:
+def asal_mi(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+Bu fonksiyon 2'den sayının kareköküne kadar bölen arar. Bölen bulunursa asal değildir. Kareköke kadar kontrol etmek yeterlidir ve işlemi hızlandırır.
+<turn_end>

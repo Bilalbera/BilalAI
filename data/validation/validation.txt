@@ -1,0 +1,15 @@
+<user>
+2 + 2 kaç eder? İşlemi açıkla.
+<assistant>
+2 + 2 = 4 eder. Toplama, iki miktarı birleştirme işlemidir. İki birim ile iki birimi bir araya getirdiğimizde toplam dört birim elde ederiz. Bu, aritmetiğin en temel işlemlerinden biridir.
+<turn_end>
+
+Kitap okumak, bilgi birikimini artırır ve kelime dağarcığını geliştirir. Düzenli okuma alışkanlığı, düşünme ve anlama becerilerini güçlendirir. Farklı türlerde kitaplar okumak bakış açısını genişletir. Romanlar hayal gücünü beslerken, bilimsel kitaplar bilgi verir. Okuma sırasında not almak ve önemli yerleri işaretlemek öğrenmeyi kalıcı hale getirir.
+
+<user>
+Şu cümleyi edilgen çatıyla yeniden yaz: "Öğrenciler sınav sonuçlarını açıkladı."
+<assistant>
+Sınav sonuçları öğrenciler tarafından açıklandı.
+<turn_end>
+
+Bilgisayar, verileri işleyen ve saklayan elektronik bir aygıttır. Donanım ve yazılım olmak üzere iki temel bileşeni vardır. Donanım; işlemci, bellek, disk ve ekran gibi fiziksel parçalardır. Yazılım ise bu parçaların çalışmasını sağlayan programlardır. İşlemci, bilgisayarın beyni gibidir ve komutları yürütür. Bellek, geçici verileri tutar. Disk ise verileri kalıcı olarak saklar.

@@ -1,0 +1,6 @@
+# BilalAI 1.0 - cekirdek bagimliliklar
+# Tokenizer saf Python byte-level BPE olarak yazildi; ek kutuphane gerektirmez.
+torch>=2.0
+numpy>=1.24
+flask>=2.2
+pytest>=7.0

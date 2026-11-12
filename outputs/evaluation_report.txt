@@ -1,0 +1,41 @@
+Model: BilalAI 1.0
+Checkpoint: bilalai_1_0_best.pt
+Egitim adimi: 60
+Cihaz: cuda
+
+Parametre sayisi: 118,075,392 (beklenen 118,075,392) -> DOGRU
+Validation loss: 4.8873
+
+DURUM: B) Egitim suruyor - 60 adim tamamlandi. Model henuz olgunlasmadi; cikti kalitesi sinirlidir.
+
+ORNEK CIKTILAR (gozle incelenmeli; tek basina benchmark degildir):
+------------------------------------------------------------
+
+[1] Istem: Merhaba, nasılsın?
+    Cikti: = için bir Bu = daha ve önemli bir ile Bu ve bir 5 bir ve = bir bir ve üretir. bir zekâ bir
+    (stop=max_new_tokens, token=48)
+
+[2] Istem: Python'da değişken nedir?
+    Cikti: if Bu = daha ve önemli bir ile Bu ve bir 5 büyük ve = bir bir ve nasıl bir zekâ bir
+    (stop=max_new_tokens, token=48)
+
+[3] Istem: 2 + 2 kaç eder? İşlemi açıkla.
+    Cikti: = ve bir Bu = sırasında önemli önemli bir ile Bu ve bir 5 büyük ve = bir bir ve nasıl bir zekâ bir
+    (stop=max_new_tokens, token=48)
+
+[4] Istem: Bir paragrafı üç cümlede özetle: Güneş, Dünya'daki yaşamın temel enerji kaynağıdır. Bitkiler güneş ışığıyla fotosentez yapar ve oksijen üretir.
+    Cikti: (bos)
+    (stop=eos, token=1)
+
+[5] Istem: Aşağıdaki Python kodundaki hatayı açıkla: print("Merhaba"
+    Cikti: = ve bir Bu sırasında daha önemli önemli bir ile Bu ve bir 5
+i
+    (stop=eos, token=30)
+
+[6] Istem: Bir döngü örneği yaz ve satırlarını açıkla.
+    Cikti: = ve bir Bu = daha önemli önemli bir ile Bu ve bir 5 büyük ve = bir bir ve nasıl bir zekâ bir
+    (stop=max_new_tokens, token=48)
+
+[7] Istem: İstanbul hakkında kısa bir paragraf yaz.
+    Cikti: (bos)
+    (stop=eos, token=1)

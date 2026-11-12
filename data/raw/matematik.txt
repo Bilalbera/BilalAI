@@ -1,0 +1,60 @@
+<user>
+2 + 2 kaç eder? İşlemi açıkla.
+<assistant>
+2 + 2 = 4 eder. Toplama, iki miktarı birleştirme işlemidir. İki birim ile iki birimi bir araya getirdiğimizde toplam dört birim elde ederiz. Bu, aritmetiğin en temel işlemlerinden biridir.
+<turn_end>
+<user>
+15 ile 27'yi topla, adım adım göster.
+<assistant>
+15 + 27 işlemini adım adım yapalım. Önce birler basamağını toplarız: 5 + 7 = 12. 2'yi birler basamağına yazar, 1'i onlar basamağına elde olarak taşırız. Sonra onlar basamağını toplarız: 1 + 2 + 1 (elde) = 4. Sonuç 42'dir. Yani 15 + 27 = 42.
+<turn_end>
+<user>
+48'den 19'u çıkar.
+<assistant>
+48 - 19 işlemini yapalım. Birler basamağında 8'den 9 çıkmaz, bu yüzden onlar basamağından bir onluk ödünç alırız. 18 - 9 = 9. Onlar basamağında 4'ten bir ödünç verildiği için 3 kalır; 3 - 1 = 2. Sonuç 29'dur. Yani 48 - 19 = 29.
+<turn_end>
+<user>
+12 çarpı 8 kaçtır?
+<assistant>
+12 x 8 = 96'dır. Bunu şöyle düşünebiliriz: 12 x 8 = (10 x 8) + (2 x 8) = 80 + 16 = 96. Çarpma, tekrarlı toplamanın kısaltılmış halidir; 12'yi 8 kez toplamak da aynı sonucu verir.
+<turn_end>
+<user>
+144'ü 12'ye böl.
+<assistant>
+144 / 12 = 12'dir. Çünkü 12 x 12 = 144'tür. Bölme, bir sayının başka bir sayı içinde kaç kez bulunduğunu bulma işlemidir. 144'ün içinde 12, tam 12 kez bulunur.
+<turn_end>
+<user>
+Bir dikdörtgenin uzun kenarı 8 cm, kısa kenarı 5 cm. Alanı ve çevresi nedir?
+<assistant>
+Dikdörtgenin alanı uzun kenar ile kısa kenarın çarpımıdır: 8 x 5 = 40 santimetrekare. Çevresi ise tüm kenarların toplamıdır: 2 x (8 + 5) = 2 x 13 = 26 santimetre. Yani alan 40 cm², çevre 26 cm'dir.
+<turn_end>
+<user>
+Bir sayının 3 katının 5 fazlası 26'dır. Sayı kaçtır?
+<assistant>
+Sayıya x diyelim. Denklem: 3x + 5 = 26. Önce her iki taraftan 5 çıkarırız: 3x = 21. Sonra her iki tarafı 3'e böleriz: x = 7. Sayı 7'dir. Kontrol edelim: 3 x 7 + 5 = 21 + 5 = 26. Doğru.
+<turn_end>
+<user>
+Yüzde 20 indirimle 150 liralık bir ürün kaç lira olur?
+<assistant>
+Önce indirim tutarını bulalım: 150'nin yüzde 20'si = 150 x 20 / 100 = 30 lira. İndirimli fiyat = 150 - 30 = 120 lira. Yani ürün 120 liraya alınır.
+<turn_end>
+<user>
+Bir üçgenin iç açıları toplamı kaçtır?
+<assistant>
+Bir üçgenin iç açıları toplamı her zaman 180 derecedir. Örneğin iki açısı 60 ve 70 derece olan bir üçgenin üçüncü açısı 180 - (60 + 70) = 50 derecedir. Bu kural tüm üçgen türleri için geçerlidir.
+<turn_end>
+<user>
+5 faktöriyel kaçtır?
+<assistant>
+5 faktöriyel (5!), 1'den 5'e kadar olan sayıların çarpımıdır: 5 x 4 x 3 x 2 x 1 = 120. Faktöriyel, bir sayıdan başlayarak 1'e kadar olan tüm pozitif tam sayıların çarpılmasıyla bulunur.
+<turn_end>
+<user>
+Ortalama nasıl hesaplanır? 4, 8, 6, 10 sayılarının ortalaması nedir?
+<assistant>
+Ortalama, sayıların toplamının sayı adedine bölünmesiyle bulunur. Toplam: 4 + 8 + 6 + 10 = 28. Sayı adedi 4'tür. Ortalama = 28 / 4 = 7. Yani bu sayıların aritmetik ortalaması 7'dir.
+<turn_end>
+<user>
+Bir havuzu bir musluk 6 saatte, diğeri 3 saatte dolduruyor. İkisi birlikte kaç saatte doldurur?
+<assistant>
+Birinci musluk saatte havuzun 1/6'sını, ikincisi 1/3'ünü doldurur. Birlikte saatte 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2'sini doldururlar. Saatte yarısı dolduğuna göre tamamı 2 saatte dolar. Cevap 2 saattir.
+<turn_end>

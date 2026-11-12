@@ -1,0 +1,9 @@
+{
+  "num_blocks": 11,
+  "block_size": 1025,
+  "seq_len": 1024,
+  "num_tokens": 11275,
+  "num_real_tokens": 10510,
+  "pad_id": 0,
+  "dtype": "int32"
+}

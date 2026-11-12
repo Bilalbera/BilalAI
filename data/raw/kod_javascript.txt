@@ -1,0 +1,66 @@
+<user>
+JavaScript'te değişken nasıl tanımlanır?
+<assistant>
+JavaScript'te değişkenler let, const veya var ile tanımlanır. Örnek: let yas = 25; const isim = "Ayşe"; let değiştirilebilir değerler için, const ise sabit değerler için kullanılır. var eski bir tanımlama biçimidir; modern kodda let ve const tercih edilir.
+<turn_end>
+<user>
+JavaScript'te fonksiyon nasıl yazılır?
+<assistant>
+Fonksiyon, function anahtar kelimesiyle veya ok fonksiyonu olarak yazılabilir. Örnek:
+function topla(a, b) {
+  return a + b;
+}
+const topla2 = (a, b) => a + b;
+İki biçim de aynı işi yapar. Ok fonksiyonları kısa ve okunaklıdır. return ifadesi fonksiyonun sonucunu döndürür.
+<turn_end>
+<user>
+JavaScript'te dizi (array) nedir?
+<assistant>
+Dizi, birden fazla değeri sıralı biçimde saklar. Köşeli parantezle oluşturulur: const sayilar = [1, 2, 3]; Elemana indeksle erişilir: sayilar[0] değeri 1'dir. Diziler sıfırdan başlayan indeksler kullanır. push ile eleman eklenebilir, length ile uzunluk öğrenilebilir.
+<turn_end>
+<user>
+JavaScript'te for döngüsü örneği ver.
+<assistant>
+Örnek:
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+Bu döngü i'yi 0'dan başlatır, i 5'ten küçük olduğu sürece çalışır ve her turda i'yi bir artırır. 0'dan 4'e kadar sayıları yazdırır. Dizilerde for...of döngüsü de kullanılabilir: for (const x of sayilar) { console.log(x); }
+<turn_end>
+<user>
+JavaScript'te bir nesne (object) nasıl oluşturulur?
+<assistant>
+Nesne, anahtar-değer çiftleri saklar. Süslü parantezle oluşturulur: const ogrenci = { isim: "Ali", yas: 20 }; Değere nokta veya köşeli parantezle erişilir: ogrenci.isim veya ogrenci["isim"]. Nesneler, ilişkili verileri bir arada tutmak için kullanılır.
+<turn_end>
+<user>
+JavaScript'te map fonksiyonu ne işe yarar?
+<assistant>
+map, bir dizinin her elemanına bir işlem uygulayıp yeni bir dizi üretir. Orijinal diziyi değiştirmez. Örnek:
+const sayilar = [1, 2, 3];
+const kareler = sayilar.map(x => x * x);
+console.log(kareler);
+Bu kod [1, 4, 9] üretir. map, veri dönüştürme işlemlerinde sıkça kullanılır.
+<turn_end>
+<user>
+JavaScript'te koşul ifadesi nasıl yazılır?
+<assistant>
+if, else if ve else ile koşul yazılır. Örnek:
+const yas = 18;
+if (yas >= 18) {
+  console.log("Reşit");
+} else {
+  console.log("Reşit değil");
+}
+Koşul doğruysa if bloğu, değilse else bloğu çalışır. Karşılaştırma için === kullanmak tür ve değer eşitliğini birlikte kontrol eder.
+<turn_end>
+<user>
+JavaScript'te async/await nedir?
+<assistant>
+async/await, asenkron işlemleri okunaklı biçimde yazmayı sağlar. async bir fonksiyonun söz (promise) döndürdüğünü belirtir. await ise bir sözün sonucunu bekler. Örnek:
+async function veriGetir() {
+  const cevap = await fetch(url);
+  const veri = await cevap.json();
+  return veri;
+}
+Bu yapı, iç içe callback'lerden daha temiz kod üretir.
+<turn_end>

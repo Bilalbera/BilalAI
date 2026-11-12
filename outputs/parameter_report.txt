@@ -1,0 +1,14 @@
+Model: BilalAI 1.0
+vocab_size=32768 d_model=768 n_layers=13 n_heads=12 head_dim=64 ffn_dim=3072 max_seq_len=1024
+
+Bilesen bazinda parametre sayisi:
+  Token embedding :   25,165,824
+  Position emb    :      786,432
+  Bir katman      :    7,086,336
+  13 katman       :   92,122,368
+  Son RMSNorm     :          768
+  lm_head         : tied (token embedding ile paylasilir, ayri sayilmaz)
+
+TOPLAM (benzersiz, egitilebilir): 118,075,392
+Beklenen (sartname)             : 118,075,392
+Yuvarlanmis boyut               : 118.1M

@@ -1,0 +1,71 @@
+<system>
+Sen BilalAI 1.0 adlı bir yapay zekâ asistanısın. Açık, doğru ve faydalı cevap ver.
+<user>
+Merhaba.
+<assistant>
+Merhaba! Sana nasıl yardımcı olabilirim?
+<turn_end>
+<user>
+Bugün hava nasıl olur sence?
+<assistant>
+Hava durumunu doğrudan göremiyorum, çünkü canlı verilere erişimim yok. Bulunduğun şehri söylersen genel iklim özellikleri hakkında bilgi verebilirim. Güncel hava durumu için bir hava durumu servisine bakmanı öneririm.
+<turn_end>
+<system>
+Sen BilalAI 1.0 adlı bir yapay zekâ asistanısın. Açık, doğru ve faydalı cevap ver.
+<user>
+Bana bir şeyler öğrenmek istiyorum. Nereden başlamalıyım?
+<assistant>
+Önce hangi alanla ilgileniyorsun onu belirleyelim. Bilim, tarih, dil, matematik ya da programlama gibi bir konu seçebilirsin. İlgi alanını söylersen sana uygun bir başlangıç önerisi sunabilirim.
+<user>
+Programlama ilgimi çekiyor.
+<assistant>
+Programlama için Python iyi bir başlangıçtır. Sözdizimi sade ve okunaklıdır. Önce değişkenler, koşullar ve döngüler gibi temel kavramları öğrenebilirsin. Ardından küçük projeler yaparak pratik kazanabilirsin. İstersen ilk ders olarak değişkenleri anlatabilirim.
+<user>
+Evet, değişkenlerle başlayalım.
+<assistant>
+Değişken, bir değeri saklamak için kullanılan isimlendirilmiş bir alandır. Python'da şöyle tanımlanır: yas = 25. Burada yas değişkeninin değeri 25'tir. Değişkenlere sayı, metin veya başka değerler atanabilir. İsimler anlamlı seçilirse kod daha okunaklı olur.
+<turn_end>
+<system>
+Sen BilalAI 1.0 adlı bir yapay zekâ asistanısın. Açık, doğru ve faydalı cevap ver.
+<user>
+Sınavlara nasıl hazırlanmalıyım?
+<assistant>
+Düzenli bir çalışma planı yapmak ilk adımdır. Konuları küçük parçalara böl ve her gün belirli bir süre ayır. Anlamadığın yerleri tekrar et ve bol soru çöz. Yeterli uyku ve dengeli beslenme de öğrenmeyi destekler.
+<user>
+Odaklanmakta zorlanıyorum.
+<assistant>
+Odaklanmayı artırmak için dikkat dağıtıcıları azaltabilirsin. Telefonu sessize almak ve çalışma alanını düzenlemek işe yarar. Kısa aralıklarla çalışıp mola vermek, örneğin yirmi beş dakika çalışma ve beş dakika mola, verimi artırır. Hedeflerini küçük ve somut tutmak da motive eder.
+<turn_end>
+<system>
+Sen BilalAI 1.0 adlı bir yapay zekâ asistanısın. Açık, doğru ve faydalı cevap ver.
+<user>
+Akşam yemeği için ne pişirsem?
+<assistant>
+Elindeki malzemelere göre bir öneri sunabilirim. Sebzelerin varsa bir sebze yemeği ya da çorba yapabilirsin. Pratik bir seçenek olarak mercimek çorbası hem besleyici hem de kolaydır. İstersen tarifini adım adım anlatabilirim.
+<user>
+Mercimek çorbası olsun.
+<assistant>
+Mercimek çorbası için kırmızı mercimek, soğan, havuç, patates, tuz ve su gerekir. Soğanı doğrayıp yağda kavur. Doğranmış havuç ve patatesi ekle. Yıkanmış mercimeği ve suyu ilave edip sebzeler yumuşayana kadar pişir. Blenderdan geçirip tuzunu ayarla. Sıcak servis yap.
+<turn_end>
+<system>
+Sen BilalAI 1.0 adlı bir yapay zekâ asistanısın. Açık, doğru ve faydalı cevap ver.
+<user>
+Yeni bir dil öğrenmek istiyorum.
+<assistant>
+Hangi dili öğrenmek istiyorsun? İngilizce, Almanca, Fransızca gibi yaygın dillerden birini seçebilirsin. Dil öğrenirken düzenli pratik yapmak önemlidir. Her gün kelime çalışmak ve dinleme yapmak ilerlemeyi hızlandırır.
+<user>
+İngilizce öğrenmek istiyorum ama kelime ezberlemekte zorlanıyorum.
+<assistant>
+Kelimeleri tek tek ezberlemek yerine cümle içinde öğrenmek daha kalıcıdır. Her yeni kelimeyi bir örnekle birlikte çalış. Aralıklı tekrar yöntemiyle kelimeleri belirli aralıklarla gözden geçir. Ayrıca ilgi alanına uygun kısa metinler okumak kelimeleri bağlam içinde pekiştirir.
+<turn_end>
+<system>
+Sen BilalAI 1.0 adlı bir yapay zekâ asistanısın. Açık, doğru ve faydalı cevap ver.
+<user>
+Spor yapmaya başlamak istiyorum ama çok yorgun hissediyorum.
+<assistant>
+Yorgunluk hissi yaygındır ve küçük adımlarla başlamak yardımcı olur. Önce kısa yürüyüşlerle başlayabilirsin. Haftada birkaç gün on beş dakika yürümek bile fark yaratır. Zamanla süreyi artırabilirsin. Uyku düzenine ve beslenmene dikkat etmek de enerjiyi artırır.
+<user>
+Motivasyonum çabuk düşüyor.
+<assistant>
+Motivasyonu sürdürmek için gerçekçi ve küçük hedefler koymak faydalıdır. İlerlemeni kaydetmek, örneğin yürüdüğün günleri işaretlemek, başarı hissini güçlendirir. Kendine karşı nazik ol; bir gün kaçırmak sorun değil, önemli olan genel sürekliliktir.
+<turn_end>

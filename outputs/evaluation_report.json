@@ -1,0 +1,44 @@
+{
+  "model_name": "BilalAI 1.0",
+  "global_step": 60,
+  "param_count": 118075392,
+  "validation_loss": 4.887292654028436,
+  "status": "B) Egitim suruyor - 60 adim tamamlandi. Model henuz olgunlasmadi; cikti kalitesi sinirlidir.",
+  "samples": [
+    {
+      "prompt": "Merhaba, nasılsın?",
+      "output": "= için bir Bu = daha ve önemli bir ile Bu ve bir 5 bir ve = bir bir ve üretir. bir zekâ bir",
+      "stop_reason": "max_new_tokens"
+    },
+    {
+      "prompt": "Python'da değişken nedir?",
+      "output": "if Bu = daha ve önemli bir ile Bu ve bir 5 büyük ve = bir bir ve nasıl bir zekâ bir",
+      "stop_reason": "max_new_tokens"
+    },
+    {
+      "prompt": "2 + 2 kaç eder? İşlemi açıkla.",
+      "output": "= ve bir Bu = sırasında önemli önemli bir ile Bu ve bir 5 büyük ve = bir bir ve nasıl bir zekâ bir",
+      "stop_reason": "max_new_tokens"
+    },
+    {
+      "prompt": "Bir paragrafı üç cümlede özetle: Güneş, Dünya'daki yaşamın temel enerji kaynağıdır. Bitkiler güneş ışığıyla fotosentez yapar ve oksijen üretir.",
+      "output": "",
+      "stop_reason": "eos"
+    },
+    {
+      "prompt": "Aşağıdaki Python kodundaki hatayı açıkla: print(\"Merhaba\"",
+      "output": "= ve bir Bu sırasında daha önemli önemli bir ile Bu ve bir 5\ni",
+      "stop_reason": "eos"
+    },
+    {
+      "prompt": "Bir döngü örneği yaz ve satırlarını açıkla.",
+      "output": "= ve bir Bu = daha önemli önemli bir ile Bu ve bir 5 büyük ve = bir bir ve nasıl bir zekâ bir",
+      "stop_reason": "max_new_tokens"
+    },
+    {
+      "prompt": "İstanbul hakkında kısa bir paragraf yaz.",
+      "output": "",
+      "stop_reason": "eos"
+    }
+  ]
+}

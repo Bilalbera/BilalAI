@@ -1,0 +1,11 @@
+{
+  "<pad>": 0,
+  "<unk>": 1,
+  "<bos>": 2,
+  "<eos>": 3,
+  "<user>": 4,
+  "<assistant>": 5,
+  "<system>": 6,
+  "<tool>": 7,
+  "<turn_end>": 8
+}
